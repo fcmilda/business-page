@@ -15,6 +15,9 @@ footer.container {
        text-decoration: none;
        color: $blue-color;
        font-size: 14px;
+       &:hover {
+         text-decoration: underline;
+       }
      }
      .dot {
        height: 2px;
@@ -33,5 +36,8 @@ footer.container {
       color: $blue-color;
       padding: 10px;
       font-size: 2em;
+      &:hover {
+        color: $grey-color;
+      }
     }
 }

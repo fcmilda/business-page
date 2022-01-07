@@ -31,6 +31,11 @@
     height: 46px;
     width: 110px;
     font-size: 18px;
+
+      &:hover {
+        cursor: pointer;
+        background-color: $grey-color;
+      }
     }
 }
 
@@ -68,5 +73,9 @@
     height: 40px;
     width: 110px;
     font-size: 16px;
+     &:hover {
+        cursor: pointer;
+        background-color: $grey-color;
+      }
     }
 }
