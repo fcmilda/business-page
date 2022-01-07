@@ -5,6 +5,11 @@ header {
   align-items: center;
   height: 60px;
   font-size: 18px;
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
   
   button {
     background-color: $blue-color;
